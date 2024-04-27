@@ -9,6 +9,7 @@ on:
     push:
         branches:
             - master
+            - include-sast
     workflow_dispatch:
 
 jobs:
