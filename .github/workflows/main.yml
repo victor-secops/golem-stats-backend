@@ -15,6 +15,9 @@ jobs:
     build:
         runs-on: ubuntu-latest
         steps:
+            - name: sast-scan
+              uses: AppThreat/sast-scan-action@1.0.2
+             
             - name: Git clone on our repo
               uses: actions/checkout@v2
 
