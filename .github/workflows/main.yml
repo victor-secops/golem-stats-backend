@@ -21,3 +21,5 @@ jobs:
               uses: actions/checkout@v2
             - name: sast-scan
               uses: AppThreat/sast-scan-action@1.0.2
+            - name: SAST validator
+              uses: michelleamesquita/sast-validator@v40
